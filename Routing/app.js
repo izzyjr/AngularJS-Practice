@@ -8,12 +8,12 @@
         })
             .when("/aboutme", {
                 templateUrl: "views/aboutme.html",
-                controller: "AboutMeController"
+                controller: "MyController"
             })
 
             .when("/posts", {
                 templateUrl: "views/posts.html",
-                controller: "AboutMeController"
+                controller: "MyController"
             })
 
             .when("/contact", {
