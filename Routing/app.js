@@ -12,7 +12,8 @@
             })
 
             .when("/posts", {
-                templateUrl: "views/posts.html"
+                templateUrl: "views/posts.html",
+                controller: "AboutMeController"
             })
 
             .when("/contact", {
